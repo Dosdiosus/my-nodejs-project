@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery Basic</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+/*$(document).ready(function(){
+// โค้ด jQuery จะเขียนตรงนี้
+
+$("#changeText").click(function(){
+
+    $("#text").text("ข้อความถูกเปลี่ยนโดย jQuery!");
+});
+});
+
+
+    $(document).ready(function(){
+    $("#hide").click(function(){
+    $("#text").hide();
+});
+    $("#show").click(function(){
+    $("#text").show();
+});
+});
+
+
+$(document).ready(function(){
+    $("#moveBox").click(function(){
+    $("#box").animate({left: '250px'});
+});
+});
+
+
+
+$(document).ready(function(){
+$("#changeColor").click(function(){
+$("#box").css("background-color", "blue");
+});
+});
+
+
+
+$("#animateBox").click(function(){
+  $("box").animate({
+    left:'250px',
+    height:'150px',
+    width:'150px',
+    backgroundColor:'green'
+  });
+});
+*/
+
+
+
+
+$(document).ready(function(){
+
+$("#cal").click(function(){
+let r = $("#r").val();
+$("text").text(3.14159*r*r);
+});
+});
+
+
+
+
+
+
+</script>
+</head>
+<style>
+ 
+</style>
+
+<body>
+<h1>ยินดีต้อยยยยรับ</h1>
+
+<p id="text">ผลลัพธ์</p>
+<input type="text" id="r">
+<button id="cal">ปุ่มคลำควย</button>
+
+
+</body>
+</html>
